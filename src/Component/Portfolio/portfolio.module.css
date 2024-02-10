@@ -1,0 +1,37 @@
+.portpic {
+    width: 400px;
+    display: block;
+}
+.line {
+    width: 90px;
+    height: 4px;
+    background-color: black;
+}
+.goldstar {
+    color: gold;
+    font-size: 20px;
+    padding-inline: 20px;
+}
+.layerss {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(26, 188, 156, 0.96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.7s ease;
+}
+.main {
+position: relative;
+}
+.icona {
+    font-size: 70px;
+}
+
+.main:hover .layerss {
+    opacity: 1;
+}
